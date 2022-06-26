@@ -1,0 +1,82 @@
+body {
+  background-color: blueviolet;
+}
+
+.main-div {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 15%;
+}
+
+.center-div {
+  border-radius: 10px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  background-color: #d580ff;
+  color: white;
+  margin-top: 10px;
+}
+
+.main-data-box {
+  border: 2px solid black;
+  margin: 0px 40px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.input-box {
+  display: flex;
+}
+
+.input-box input {
+  height: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+input:focus {
+  outline-width: 0;
+}
+
+.input-box input::placeholder {
+  color: gray;
+  font-size: 2rem;
+}
+
+.icon {
+  height: fit-content;
+  margin: auto 10px;
+  cursor: pointer;
+}
+
+.listItem {
+  list-style: none;
+  border: 1px solid black;
+  margin-bottom: 4px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-left: -10px;
+  margin-right: 20px;
+  background-color: rgb(236, 236, 236, 0.6);
+  font-family: "Permanent Marker", cursive;
+  color: black;
+}
+
+.cancel {
+  float: right;
+}
+
+.completed {
+  margin-right: 10px;
+}
+
+.crossText {
+  text-decoration: line-through;
+  color: grey;
+}
